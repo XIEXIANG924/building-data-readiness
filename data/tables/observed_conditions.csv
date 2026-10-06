@@ -1,0 +1,10 @@
+id,label,population,stage,unit,numerator,denominator,count,fraction,condition_state,evidence_locators,rule_locator,threshold,evaluation_basis
+U-C01,Technical raster yield,r3c3: all strict geometry matches,PRE_TEMPORAL,record,434,2980,,0.14563758389261744,UNMET,"[""U4-r3c3#raster_yield_upper_bound""]",U1#engineering_benchmarks.raster_yield_min,0.8,UPPER_BOUND_PROVES_UNMET
+U-C02,Technical raster yield,r4c1: all strict geometry matches,PRE_TEMPORAL,record,29,43,,0.6744186046511628,UNMET,"[""U4-r4c1#raster_yield_upper_bound""]",U1#engineering_benchmarks.raster_yield_min,0.8,UPPER_BOUND_PROVES_UNMET
+U-C03,Conditional plausibility,r3c3: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,414,417,,0.9928057553956835,SATISFIED,"[""U4-r3c3#conditional_plausible_fraction""]",U1#engineering_benchmarks.plausible_fraction_min,0.8,CONDITIONAL_OBSERVATION
+U-C04,Conditional plausibility,r4c1: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,28,28,,1.0,SATISFIED,"[""U4-r4c1#conditional_plausible_fraction""]",U1#engineering_benchmarks.plausible_fraction_min,0.8,CONDITIONAL_OBSERVATION
+U-C05,Human QA,Pooled fixed 50-case QA sample,FINAL_ADJUDICATED_SAMPLE,record,49,50,,0.98,SATISFIED,"[""U5#pass_numerator,pass_denominator""]",U1#qa.overall_pass_min,0.9,SAMPLE_OBSERVATION
+U-C06,Human QA,Fixed QA sample: stratum H,FINAL_ADJUDICATED_SAMPLE,record,1,1,,1.0,SATISFIED,"[""U5#strata[H]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-C07,Human QA,Fixed QA sample: stratum L,FINAL_ADJUDICATED_SAMPLE,record,2,2,,1.0,SATISFIED,"[""U5#strata[L]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-C08,Human QA,Fixed QA sample: stratum D,FINAL_ADJUDICATED_SAMPLE,record,14,15,,0.9333333333333333,SATISFIED,"[""U5#strata[D]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-C09,Human QA,Fixed QA sample: stratum N,FINAL_ADJUDICATED_SAMPLE,record,32,32,,1.0,SATISFIED,"[""U5#strata[N]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION

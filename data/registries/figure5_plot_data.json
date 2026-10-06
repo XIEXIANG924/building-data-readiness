@@ -1,0 +1,80 @@
+{
+  "scope": "Figure 5 in v20 PDF; Utrecht pilot support and QA, formerly F4 v0.7",
+  "support_outcomes": [
+    {
+      "site_id": "r3c3",
+      "total": 2980,
+      "empty": 788,
+      "insufficient_centers": 1756,
+      "numeric_pass": 434,
+      "other": 2,
+      "yield_threshold": 0.8,
+      "yield_state": "UNMET"
+    },
+    {
+      "site_id": "r4c1",
+      "total": 43,
+      "empty": 3,
+      "insufficient_centers": 11,
+      "numeric_pass": 29,
+      "other": 0,
+      "yield_threshold": 0.8,
+      "yield_state": "UNMET"
+    }
+  ],
+  "qa": [
+    {
+      "stratum": "H",
+      "numerator": 1,
+      "denominator": 1,
+      "pass_fraction": 1.0,
+      "benchmark_satisfied": true
+    },
+    {
+      "stratum": "L",
+      "numerator": 2,
+      "denominator": 2,
+      "pass_fraction": 1.0,
+      "benchmark_satisfied": true
+    },
+    {
+      "stratum": "D",
+      "numerator": 14,
+      "denominator": 15,
+      "pass_fraction": 0.9333333333333333,
+      "benchmark_satisfied": true
+    },
+    {
+      "stratum": "N",
+      "numerator": 32,
+      "denominator": 32,
+      "pass_fraction": 1.0,
+      "benchmark_satisfied": true
+    }
+  ],
+  "overall_qa": [
+    49,
+    50
+  ],
+  "overall_threshold": 0.9,
+  "stratum_threshold": 0.8,
+  "yield_threshold": 0.8,
+  "colors": {
+    "empty": "#DB432C",
+    "insufficient_centers": "#438870",
+    "numeric_pass": "#838AAF",
+    "other": "#C4B797",
+    "H": "#DB432C",
+    "L": "#438870",
+    "D": "#838AAF",
+    "N": "#C4B797"
+  },
+  "publication_figure": 5,
+  "author_approved_version": "Figure5_D_EDIT_HERE_v2",
+  "display_encoding": {
+    "a": "within-pilot fractions; circle r3c3, solid diamond r4c1; numeric labels are counts",
+    "b": "percentage-point difference from the 80% minimum, upper bounds",
+    "c": "one symbol per sampled judgment; aggregate-count layout"
+  },
+  "authority": "table2_numeric_registry.json for technical-yield and QA conditions; retained pilot outcome summaries for loss categories"
+}

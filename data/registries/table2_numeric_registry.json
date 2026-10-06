@@ -1,0 +1,1758 @@
+{
+  "status": "FROZEN_FOR_V0_7_ASSEMBLY",
+  "role": "Numeric authority behind Table 2; original evidence remains governing",
+  "observations": [
+    {
+      "id": "U-C01",
+      "label": "Technical raster yield",
+      "population": "r3c3: all strict geometry matches",
+      "stage": "PRE_TEMPORAL",
+      "unit": "record",
+      "numerator": 434,
+      "denominator": 2980,
+      "count": null,
+      "fraction": 0.14563758389261744,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "U4-r3c3#raster_yield_upper_bound"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.raster_yield_min",
+      "threshold": 0.8,
+      "evaluation_basis": "UPPER_BOUND_PROVES_UNMET"
+    },
+    {
+      "id": "U-C02",
+      "label": "Technical raster yield",
+      "population": "r4c1: all strict geometry matches",
+      "stage": "PRE_TEMPORAL",
+      "unit": "record",
+      "numerator": 29,
+      "denominator": 43,
+      "count": null,
+      "fraction": 0.6744186046511628,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "U4-r4c1#raster_yield_upper_bound"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.raster_yield_min",
+      "threshold": 0.8,
+      "evaluation_basis": "UPPER_BOUND_PROVES_UNMET"
+    },
+    {
+      "id": "U-C03",
+      "label": "Conditional plausibility",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": 414,
+      "denominator": 417,
+      "count": null,
+      "fraction": 0.9928057553956835,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U4-r3c3#conditional_plausible_fraction"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.plausible_fraction_min",
+      "threshold": 0.8,
+      "evaluation_basis": "CONDITIONAL_OBSERVATION"
+    },
+    {
+      "id": "U-C04",
+      "label": "Conditional plausibility",
+      "population": "r4c1: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": 28,
+      "denominator": 28,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U4-r4c1#conditional_plausible_fraction"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.plausible_fraction_min",
+      "threshold": 0.8,
+      "evaluation_basis": "CONDITIONAL_OBSERVATION"
+    },
+    {
+      "id": "U-C05",
+      "label": "Human QA",
+      "population": "Pooled fixed 50-case QA sample",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 49,
+      "denominator": 50,
+      "count": null,
+      "fraction": 0.98,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#pass_numerator,pass_denominator"
+      ],
+      "rule_locator": "U1#qa.overall_pass_min",
+      "threshold": 0.9,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C06",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum H",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 1,
+      "denominator": 1,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[H]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C07",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum L",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 2,
+      "denominator": 2,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[L]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C08",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum D",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 14,
+      "denominator": 15,
+      "count": null,
+      "fraction": 0.9333333333333333,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[D]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C09",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum N",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 32,
+      "denominator": 32,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[N]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-r3c3-total",
+      "label": "total",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2980,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.total"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-numeric_pass",
+      "label": "numeric_pass",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 434,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.numeric_pass"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-local_flagged",
+      "label": "local_flagged",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 0,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.local_flagged"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-roof_nodata_total",
+      "label": "roof_nodata_total",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 14587,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.roof_nodata_total"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-ground_nodata_total",
+      "label": "ground_nodata_total",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 323634,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.ground_nodata_total"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-RETAIN_NOT_PROVEN_POSTFLIGHT",
+      "label": "RETAIN_NOT_PROVEN_POSTFLIGHT",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2155,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.RETAIN_NOT_PROVEN_POSTFLIGHT"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-screened_numeric_stock",
+      "label": "screened_numeric_stock",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 417,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-plausible",
+      "label": "plausible",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 414,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.plausible"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-numeric_known_postflight_excluded",
+      "label": "numeric_known_postflight_excluded",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 17,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.numeric_known_postflight_excluded"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-screened_unknown",
+      "label": "screened_unknown",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.screened_unknown"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-complete_flight_bounds",
+      "label": "complete_flight_bounds",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2181,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.complete_flight_bounds"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-raw_covers_ground_false_diagnostic",
+      "label": "raw_covers_ground_false_diagnostic",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2908,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.raw_covers_ground_false_diagnostic"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-EMPTY_ROOF_AFTER_1_5M_INSET",
+      "label": "EMPTY_ROOF_AFTER_1_5M_INSET",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 788,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.EMPTY_ROOF_AFTER_1_5M_INSET"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-RETAIN_UNKNOWN",
+      "label": "RETAIN_UNKNOWN",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 801,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.RETAIN_UNKNOWN"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-NONEMPTY_ROOF_GRID_CENTERS_LT_140",
+      "label": "NONEMPTY_ROOF_GRID_CENTERS_LT_140",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 1756,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.NONEMPTY_ROOF_GRID_CENTERS_LT_140"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-EXCLUDE_KNOWN_POSTFLIGHT",
+      "label": "EXCLUDE_KNOWN_POSTFLIGHT",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 24,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.EXCLUDE_KNOWN_POSTFLIGHT"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-OTHER_NUMERICAL_FAILURE",
+      "label": "OTHER_NUMERICAL_FAILURE",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 1,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.OTHER_NUMERICAL_FAILURE"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-ROOF_GRID_SUFFICIENT_BUT_VALID_SAMPLES_LT_140",
+      "label": "ROOF_GRID_SUFFICIENT_BUT_VALID_SAMPLES_LT_140",
+      "population": "r3c3: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 1,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#counts.ROOF_GRID_SUFFICIENT_BUT_VALID_SAMPLES_LT_140"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-overlap-ROOF_INSET_EMPTY",
+      "label": "ROOF_INSET_EMPTY",
+      "population": "r3c3: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 788,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#overlapping_reason_counts.ROOF_INSET_EMPTY"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-overlap-ROOF_SAMPLES_LT_140",
+      "label": "ROOF_SAMPLES_LT_140",
+      "population": "r3c3: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2545,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#overlapping_reason_counts.ROOF_SAMPLES_LT_140"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-overlap-GROUND_SAMPLES_LT_175",
+      "label": "GROUND_SAMPLES_LT_175",
+      "population": "r3c3: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 132,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#overlapping_reason_counts.GROUND_SAMPLES_LT_175"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-overlap-GROUND_AFTER_EXCLUSION_EMPTY",
+      "label": "GROUND_AFTER_EXCLUSION_EMPTY",
+      "population": "r3c3: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 13,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#overlapping_reason_counts.GROUND_AFTER_EXCLUSION_EMPTY"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-overlap-GROUND_PLANE_UNAVAILABLE",
+      "label": "GROUND_PLANE_UNAVAILABLE",
+      "population": "r3c3: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 1,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#overlapping_reason_counts.GROUND_PLANE_UNAVAILABLE"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-roof_area_m2_distribution-median",
+      "label": "roof_area_m2_distribution median",
+      "population": "r3c3: strict matches",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "m2",
+      "numerator": null,
+      "denominator": null,
+      "count": 11.485857104589508,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#roof_area_m2_distribution.median"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-roof_grid_centers_distribution-median",
+      "label": "roof_grid_centers_distribution median",
+      "population": "r3c3: strict matches",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "grid center",
+      "numerator": null,
+      "denominator": null,
+      "count": 46.0,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#roof_grid_centers_distribution.median"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-stock-H",
+      "label": "H",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 8,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#strata.H.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-stock-L",
+      "label": "L",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 23,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#strata.L.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-stock-D",
+      "label": "D",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 114,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#strata.D.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r3c3-stock-N",
+      "label": "N",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 272,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r3c3#strata.N.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-total",
+      "label": "total",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 43,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.total"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-EMPTY_ROOF_AFTER_1_5M_INSET",
+      "label": "EMPTY_ROOF_AFTER_1_5M_INSET",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 3,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.EMPTY_ROOF_AFTER_1_5M_INSET"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-numeric_pass",
+      "label": "numeric_pass",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 29,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.numeric_pass"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-local_flagged",
+      "label": "local_flagged",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 0,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.local_flagged"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-roof_nodata_total",
+      "label": "roof_nodata_total",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 721,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.roof_nodata_total"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-ground_nodata_total",
+      "label": "ground_nodata_total",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 11281,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.ground_nodata_total"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-RETAIN_UNKNOWN",
+      "label": "RETAIN_UNKNOWN",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 5,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.RETAIN_UNKNOWN"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-screened_numeric_stock",
+      "label": "screened_numeric_stock",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 28,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-plausible",
+      "label": "plausible",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 28,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.plausible"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-numeric_known_postflight_excluded",
+      "label": "numeric_known_postflight_excluded",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 1,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.numeric_known_postflight_excluded"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-screened_unknown",
+      "label": "screened_unknown",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 0,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.screened_unknown"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-complete_flight_bounds",
+      "label": "complete_flight_bounds",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 40,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.complete_flight_bounds"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-raw_covers_ground_false_diagnostic",
+      "label": "raw_covers_ground_false_diagnostic",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 31,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.raw_covers_ground_false_diagnostic"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-NONEMPTY_ROOF_GRID_CENTERS_LT_140",
+      "label": "NONEMPTY_ROOF_GRID_CENTERS_LT_140",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 11,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.NONEMPTY_ROOF_GRID_CENTERS_LT_140"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-EXCLUDE_KNOWN_POSTFLIGHT",
+      "label": "EXCLUDE_KNOWN_POSTFLIGHT",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 2,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.EXCLUDE_KNOWN_POSTFLIGHT"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-RETAIN_NOT_PROVEN_POSTFLIGHT",
+      "label": "RETAIN_NOT_PROVEN_POSTFLIGHT",
+      "population": "r4c1: accepted pilot report (field-specific scope)",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 36,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#counts.RETAIN_NOT_PROVEN_POSTFLIGHT"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-overlap-ROOF_INSET_EMPTY",
+      "label": "ROOF_INSET_EMPTY",
+      "population": "r4c1: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 3,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#overlapping_reason_counts.ROOF_INSET_EMPTY"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-overlap-ROOF_SAMPLES_LT_140",
+      "label": "ROOF_SAMPLES_LT_140",
+      "population": "r4c1: strict matches; overlapping diagnostics",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 14,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#overlapping_reason_counts.ROOF_SAMPLES_LT_140"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-roof_area_m2_distribution-median",
+      "label": "roof_area_m2_distribution median",
+      "population": "r4c1: strict matches",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "m2",
+      "numerator": null,
+      "denominator": null,
+      "count": 81.56509605505079,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#roof_area_m2_distribution.median"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-roof_grid_centers_distribution-median",
+      "label": "roof_grid_centers_distribution median",
+      "population": "r4c1: strict matches",
+      "stage": "PILOT_ENGINEERING_REVIEW",
+      "unit": "grid center",
+      "numerator": null,
+      "denominator": null,
+      "count": 324.0,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#roof_grid_centers_distribution.median"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-stock-D",
+      "label": "D",
+      "population": "r4c1: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 16,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#strata.D.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-r4c1-stock-N",
+      "label": "N",
+      "population": "r4c1: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 12,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U4-r4c1#strata.N.screened_numeric_stock"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-frame_count",
+      "label": "frame_count",
+      "population": "Fixed two-pilot QA frame/sample as named",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 445,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#frame_count"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-sample_count",
+      "label": "sample_count",
+      "population": "Fixed two-pilot QA frame/sample as named",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 50,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#sample_count"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-scoring_items",
+      "label": "scoring_items",
+      "population": "Fixed two-pilot QA frame/sample as named",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 250,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#scoring_items"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-initial_concordant_items",
+      "label": "initial_concordant_items",
+      "population": "Fixed two-pilot QA frame/sample as named",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 244,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#initial_concordant_items"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-adjudicated_items",
+      "label": "adjudicated_items",
+      "population": "Fixed two-pilot QA frame/sample as named",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 6,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#adjudicated_items"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-replacements",
+      "label": "replacements",
+      "population": "Fixed two-pilot QA frame/sample as named",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": null,
+      "denominator": null,
+      "count": 0,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#replacements"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-site-r3c3",
+      "label": "QA site allocation",
+      "population": "r3c3 within fixed sample",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 46,
+      "denominator": 47,
+      "count": null,
+      "fraction": 0.9787234042553191,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#sites[r3c3]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-QA-site-r4c1",
+      "label": "QA site allocation",
+      "population": "r4c1 within fixed sample",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 3,
+      "denominator": 3,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U5#sites[r4c1]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M01",
+      "label": "terminal H or L",
+      "population": "Milan_fixed25_diagnostic_deduplicated_OSM",
+      "stage": "HISTORICAL_Milan_fixed25_diagnostic_deduplicated_OSM",
+      "unit": "OSM object",
+      "numerator": 1170,
+      "denominator": 8055,
+      "count": null,
+      "fraction": 0.1452513966480447,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M01]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M02",
+      "label": "terminal H or L or D",
+      "population": "Milan_fixed25_diagnostic_deduplicated_OSM",
+      "stage": "HISTORICAL_Milan_fixed25_diagnostic_deduplicated_OSM",
+      "unit": "OSM object",
+      "numerator": 4727,
+      "denominator": 8055,
+      "count": null,
+      "fraction": 0.5868404717566729,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M02]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M03",
+      "label": "primary eligible within five held-out support sites",
+      "population": "Milan_S_star_primary_eligible",
+      "stage": "HISTORICAL_Milan_S_star_primary_eligible",
+      "unit": "strict matched pair",
+      "numerator": null,
+      "denominator": null,
+      "count": 1679,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M03]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M04",
+      "label": "historical primary_eligible / geometry_eligible, all confirmatory candidate sites",
+      "population": "Milan_all_confirmatory_geometry_candidates",
+      "stage": "HISTORICAL_Milan_all_confirmatory_geometry_candidates",
+      "unit": "strict matched pair",
+      "numerator": 1767,
+      "denominator": 1777,
+      "count": null,
+      "fraction": 0.9943725379853686,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M04]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M05",
+      "label": "H/L-supported matched pairs within S_star; H=1, L=125",
+      "population": "Milan_S_star_primary_eligible",
+      "stage": "HISTORICAL_Milan_S_star_primary_eligible",
+      "unit": "strict matched pair with source H/L",
+      "numerator": null,
+      "denominator": null,
+      "count": 126,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M05]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M06",
+      "label": "H/L observations in r4c5 and r5c3 / all H/L in S_star",
+      "population": "Milan_S_star_HL",
+      "stage": "HISTORICAL_Milan_S_star_HL",
+      "unit": "H/L-supported matched pair",
+      "numerator": 106,
+      "denominator": 126,
+      "count": null,
+      "fraction": 0.8412698412698413,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M06]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-M07",
+      "label": "strict final PASS; FAIL and UNSURE both nonpassing",
+      "population": "Milan_historical_QA_final_author_adjudicated",
+      "stage": "HISTORICAL_Milan_historical_QA_final_author_adjudicated",
+      "unit": "QA sample",
+      "numerator": 43,
+      "denominator": 50,
+      "count": null,
+      "fraction": 0.86,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M07]"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-default-gap",
+      "label": "Default contribution in percentage points",
+      "population": "Milan diagnostic 8,055 OSM objects",
+      "stage": "DIAGNOSTIC",
+      "unit": "OSM object",
+      "numerator": 3557,
+      "denominator": 8055,
+      "count": null,
+      "fraction": 0.44158907510862816,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#rounding_note"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-diagnostic-H",
+      "label": "H",
+      "population": "Milan diagnostic 8,055 OSM objects",
+      "stage": "DIAGNOSTIC",
+      "unit": "OSM object",
+      "numerator": null,
+      "denominator": null,
+      "count": 11,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M01].components.H"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-diagnostic-L",
+      "label": "L",
+      "population": "Milan diagnostic 8,055 OSM objects",
+      "stage": "DIAGNOSTIC",
+      "unit": "OSM object",
+      "numerator": null,
+      "denominator": null,
+      "count": 1159,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M01].components.L"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-diagnostic-D",
+      "label": "D",
+      "population": "Milan diagnostic 8,055 OSM objects",
+      "stage": "DIAGNOSTIC",
+      "unit": "OSM object",
+      "numerator": null,
+      "denominator": null,
+      "count": 3557,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M01].components.D"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-diagnostic-N",
+      "label": "N",
+      "population": "Milan diagnostic 8,055 OSM objects",
+      "stage": "DIAGNOSTIC",
+      "unit": "OSM object",
+      "numerator": null,
+      "denominator": null,
+      "count": 3328,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "M2#claims[M01].components.N"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-QA-D",
+      "label": "QA stratum D",
+      "population": "Milan final QA sample",
+      "stage": "FINAL_AUTHOR_REVIEW",
+      "unit": "record",
+      "numerator": 21,
+      "denominator": 25,
+      "count": null,
+      "fraction": 0.84,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "M3#by_provenance.D"
+      ],
+      "rule_locator": "M2#claims[M07]; historical QA >=80%",
+      "threshold": 0.8,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-QA-L",
+      "label": "QA stratum L",
+      "population": "Milan final QA sample",
+      "stage": "FINAL_AUTHOR_REVIEW",
+      "unit": "record",
+      "numerator": 13,
+      "denominator": 15,
+      "count": null,
+      "fraction": 0.8666666666666667,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "M3#by_provenance.L"
+      ],
+      "rule_locator": "M2#claims[M07]; historical QA >=80%",
+      "threshold": 0.8,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-QA-N",
+      "label": "QA stratum N",
+      "population": "Milan final QA sample",
+      "stage": "FINAL_AUTHOR_REVIEW",
+      "unit": "record",
+      "numerator": 9,
+      "denominator": 10,
+      "count": null,
+      "fraction": 0.9,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "M3#by_provenance.N"
+      ],
+      "rule_locator": "M2#claims[M07]; historical QA >=80%",
+      "threshold": 0.8,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "M-QA-overall",
+      "label": "Final overall QA",
+      "population": "Milan final 50-case sample",
+      "stage": "FINAL_AUTHOR_REVIEW",
+      "unit": "record",
+      "numerator": 43,
+      "denominator": 50,
+      "count": null,
+      "fraction": 0.86,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "M3#final_overall",
+        "M2#claims[M07]"
+      ],
+      "rule_locator": "M4#manual QA >=45/50",
+      "threshold": 0.9,
+      "evaluation_basis": "OBSERVED"
+    },
+    {
+      "id": "U-context",
+      "label": "Support-selection objects",
+      "population": "25 fixed 1,000 m support disks",
+      "stage": "COMPLETE_GEOMETRY_SELECTION",
+      "unit": "OSM object",
+      "numerator": null,
+      "denominator": null,
+      "count": 46502,
+      "fraction": null,
+      "condition_state": "DESCRIPTIVE",
+      "evidence_locators": [
+        "U6#unique_selected_objects"
+      ],
+      "rule_locator": null,
+      "threshold": null,
+      "evaluation_basis": "OBSERVED"
+    }
+  ],
+  "observed_conditions": [
+    {
+      "id": "U-C01",
+      "label": "Technical raster yield",
+      "population": "r3c3: all strict geometry matches",
+      "stage": "PRE_TEMPORAL",
+      "unit": "record",
+      "numerator": 434,
+      "denominator": 2980,
+      "count": null,
+      "fraction": 0.14563758389261744,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "U4-r3c3#raster_yield_upper_bound"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.raster_yield_min",
+      "threshold": 0.8,
+      "evaluation_basis": "UPPER_BOUND_PROVES_UNMET"
+    },
+    {
+      "id": "U-C02",
+      "label": "Technical raster yield",
+      "population": "r4c1: all strict geometry matches",
+      "stage": "PRE_TEMPORAL",
+      "unit": "record",
+      "numerator": 29,
+      "denominator": 43,
+      "count": null,
+      "fraction": 0.6744186046511628,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "U4-r4c1#raster_yield_upper_bound"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.raster_yield_min",
+      "threshold": 0.8,
+      "evaluation_basis": "UPPER_BOUND_PROVES_UNMET"
+    },
+    {
+      "id": "U-C03",
+      "label": "Conditional plausibility",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": 414,
+      "denominator": 417,
+      "count": null,
+      "fraction": 0.9928057553956835,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U4-r3c3#conditional_plausible_fraction"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.plausible_fraction_min",
+      "threshold": 0.8,
+      "evaluation_basis": "CONDITIONAL_OBSERVATION"
+    },
+    {
+      "id": "U-C04",
+      "label": "Conditional plausibility",
+      "population": "r4c1: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": 28,
+      "denominator": 28,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U4-r4c1#conditional_plausible_fraction"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.plausible_fraction_min",
+      "threshold": 0.8,
+      "evaluation_basis": "CONDITIONAL_OBSERVATION"
+    },
+    {
+      "id": "U-C05",
+      "label": "Human QA",
+      "population": "Pooled fixed 50-case QA sample",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 49,
+      "denominator": 50,
+      "count": null,
+      "fraction": 0.98,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#pass_numerator,pass_denominator"
+      ],
+      "rule_locator": "U1#qa.overall_pass_min",
+      "threshold": 0.9,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C06",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum H",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 1,
+      "denominator": 1,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[H]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C07",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum L",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 2,
+      "denominator": 2,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[L]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C08",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum D",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 14,
+      "denominator": 15,
+      "count": null,
+      "fraction": 0.9333333333333333,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[D]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C09",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum N",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 32,
+      "denominator": 32,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[N]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    }
+  ],
+  "endpoint_binding_complete": false,
+  "endpoint_action": null,
+  "rule_normalization": "qa.overall_pass_min is 45 cases; fraction normalization uses sample_n=50, yielding 0.90.",
+  "readiness_score": null,
+  "sources": {
+    "U1": {
+      "evidence_catalog_key": "U1",
+      "original_sha256": "6e00c879da7906411c2304df22059b4cf48259b5d108f90f43f30cd0ba440b5f",
+      "original_file_included": false
+    },
+    "U4-r3c3": {
+      "evidence_catalog_key": "U4",
+      "original_sha256": "d6d533aa67bcb33de97cf23bd586aca09c082b9fb13a8c5df1f8c0b3f172d409",
+      "original_file_included": false
+    },
+    "U4-r4c1": {
+      "evidence_catalog_key": "U4",
+      "original_sha256": "b880491d21bdb5ebe009e6f487e93ec4806dbf040428ae04933325fbe366ff1c",
+      "original_file_included": false
+    },
+    "U5": {
+      "evidence_catalog_key": "U5",
+      "original_sha256": "7028a58ed26389083984e60ddddf380bb0e435c7194a5fb58c16bc47b79ff9e4",
+      "original_file_included": false
+    },
+    "U6": {
+      "evidence_catalog_key": "U6",
+      "original_sha256": "c00b6281cf680dc3d037c4865af0b580588be6563d60762ebaea4e1161fa58a2",
+      "original_file_included": false
+    },
+    "U7": {
+      "evidence_catalog_key": "U7",
+      "original_sha256": "5a3ea5b0e802815af157cb1ca25bdcae62d12eeb86e0e1721febf9b9812f6b51",
+      "original_file_included": false
+    },
+    "M2": {
+      "evidence_catalog_key": "M2",
+      "original_sha256": "277f48657b0ce14b55f51f8c8b38e0167e9228eab74e90b669a1a453250d8a96",
+      "original_file_included": false
+    },
+    "M1": {
+      "evidence_catalog_key": "M1",
+      "original_sha256": "c84797e06aa734361689626cf336edd44dd5328bdec6be3b7c8099b9674c2a87",
+      "original_file_included": false
+    },
+    "M3": {
+      "evidence_catalog_key": "M3",
+      "original_sha256": "87c90bcf798d45e89b7bf4307621b361b1c9527ac839e1d3420c26e9b52a74e1",
+      "original_file_included": false
+    },
+    "M4": {
+      "evidence_catalog_key": "M4",
+      "original_sha256": "53e1cb057c76b9219e4ff9a01449d7aab608b6e8cee578a3cbcc00c375121e14",
+      "original_file_included": false
+    }
+  },
+  "packaging_note": "Local paths omitted for anonymous review. Original observation values and condition definitions are unchanged. See Supplement S4 for availability and gaps."
+}

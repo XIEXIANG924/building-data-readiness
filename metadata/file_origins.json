@@ -1,0 +1,34 @@
+{
+  "preserved_files": [
+    {
+      "file": "data/registries/figure5_plot_data.json",
+      "source_sha256": "56e8951ace5b4cfbcf92b43ed90b3a3ce9f1b3c4ba05216e1dc2debcf91932a4",
+      "transformation": "byte-for-byte copy of the supplied manuscript data file"
+    },
+    {
+      "file": "data/registries/figure_data_registry_v09.json",
+      "source_sha256": "311fc661c4d9056b0d6bf30411c820ccbb8b9120dd9bb20967dc65fa68b14ecc",
+      "transformation": "byte-for-byte copy of the supplied manuscript data file"
+    },
+    {
+      "file": "data/registries/table2_numeric_registry.json",
+      "source_sha256": "a43a880f0508a481c3af9ff70dd954be08b7ecbd37fbd374916e0cd81f7f70ab",
+      "transformation": "byte-for-byte copy of the supplied manuscript data file"
+    },
+    {
+      "file": "data/registries/table2_observations.csv",
+      "source_sha256": "23c4bd344a63260b7aa65fc509cd0cef74015c6d528f6ff43cdb29d81c1b31e9",
+      "transformation": "byte-for-byte copy of the supplied manuscript data file"
+    },
+    {
+      "file": "data/registries/table3_observed_conditions.json",
+      "source_sha256": "ef43cf6464af689cbb56eb74bbca3d0a29a7896f4f863781652b4d721248c6a8",
+      "transformation": "byte-for-byte copy of the supplied manuscript data file"
+    }
+  ],
+  "derived_tables": {
+    "method": "CSV projections of supplied registry arrays and final ledgers, except the support-selection table transcribed from Supplement S1. No new raw-data analysis.",
+    "support_selection_source": "manuscript Supplement S1",
+    "support_selection_source_sha256": "f9c9154d3f280e8dc233fc0c7eb3decbec73dad1c4f0fa744185fef4835fb1de"
+  }
+}

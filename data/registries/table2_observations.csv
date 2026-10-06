@@ -1,0 +1,86 @@
+id,label,population,stage,unit,numerator,denominator,count,fraction,condition_state,evidence_locators,rule_locator,threshold,evaluation_basis
+U-C01,Technical raster yield,r3c3: all strict geometry matches,PRE_TEMPORAL,record,434,2980,,0.14563758389261744,UNMET,"[""U4-r3c3#raster_yield_upper_bound""]",U1#engineering_benchmarks.raster_yield_min,0.8,UPPER_BOUND_PROVES_UNMET
+U-C02,Technical raster yield,r4c1: all strict geometry matches,PRE_TEMPORAL,record,29,43,,0.6744186046511628,UNMET,"[""U4-r4c1#raster_yield_upper_bound""]",U1#engineering_benchmarks.raster_yield_min,0.8,UPPER_BOUND_PROVES_UNMET
+U-C03,Conditional plausibility,r3c3: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,414,417,,0.9928057553956835,SATISFIED,"[""U4-r3c3#conditional_plausible_fraction""]",U1#engineering_benchmarks.plausible_fraction_min,0.8,CONDITIONAL_OBSERVATION
+U-C04,Conditional plausibility,r4c1: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,28,28,,1.0,SATISFIED,"[""U4-r4c1#conditional_plausible_fraction""]",U1#engineering_benchmarks.plausible_fraction_min,0.8,CONDITIONAL_OBSERVATION
+U-C05,Human QA,Pooled fixed 50-case QA sample,FINAL_ADJUDICATED_SAMPLE,record,49,50,,0.98,SATISFIED,"[""U5#pass_numerator,pass_denominator""]",U1#qa.overall_pass_min,0.9,SAMPLE_OBSERVATION
+U-C06,Human QA,Fixed QA sample: stratum H,FINAL_ADJUDICATED_SAMPLE,record,1,1,,1.0,SATISFIED,"[""U5#strata[H]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-C07,Human QA,Fixed QA sample: stratum L,FINAL_ADJUDICATED_SAMPLE,record,2,2,,1.0,SATISFIED,"[""U5#strata[L]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-C08,Human QA,Fixed QA sample: stratum D,FINAL_ADJUDICATED_SAMPLE,record,14,15,,0.9333333333333333,SATISFIED,"[""U5#strata[D]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-C09,Human QA,Fixed QA sample: stratum N,FINAL_ADJUDICATED_SAMPLE,record,32,32,,1.0,SATISFIED,"[""U5#strata[N]""]",U1#qa.stratum_pass_min,0.8,SAMPLE_OBSERVATION
+U-r3c3-total,total,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,2980,,DESCRIPTIVE,"[""U4-r3c3#counts.total""]",,,OBSERVED
+U-r3c3-numeric_pass,numeric_pass,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,434,,DESCRIPTIVE,"[""U4-r3c3#counts.numeric_pass""]",,,OBSERVED
+U-r3c3-local_flagged,local_flagged,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,0,,DESCRIPTIVE,"[""U4-r3c3#counts.local_flagged""]",,,OBSERVED
+U-r3c3-roof_nodata_total,roof_nodata_total,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,14587,,DESCRIPTIVE,"[""U4-r3c3#counts.roof_nodata_total""]",,,OBSERVED
+U-r3c3-ground_nodata_total,ground_nodata_total,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,323634,,DESCRIPTIVE,"[""U4-r3c3#counts.ground_nodata_total""]",,,OBSERVED
+U-r3c3-RETAIN_NOT_PROVEN_POSTFLIGHT,RETAIN_NOT_PROVEN_POSTFLIGHT,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,2155,,DESCRIPTIVE,"[""U4-r3c3#counts.RETAIN_NOT_PROVEN_POSTFLIGHT""]",,,OBSERVED
+U-r3c3-screened_numeric_stock,screened_numeric_stock,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,417,,DESCRIPTIVE,"[""U4-r3c3#counts.screened_numeric_stock""]",,,OBSERVED
+U-r3c3-plausible,plausible,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,414,,DESCRIPTIVE,"[""U4-r3c3#counts.plausible""]",,,OBSERVED
+U-r3c3-numeric_known_postflight_excluded,numeric_known_postflight_excluded,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,17,,DESCRIPTIVE,"[""U4-r3c3#counts.numeric_known_postflight_excluded""]",,,OBSERVED
+U-r3c3-screened_unknown,screened_unknown,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,2,,DESCRIPTIVE,"[""U4-r3c3#counts.screened_unknown""]",,,OBSERVED
+U-r3c3-complete_flight_bounds,complete_flight_bounds,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,2181,,DESCRIPTIVE,"[""U4-r3c3#counts.complete_flight_bounds""]",,,OBSERVED
+U-r3c3-raw_covers_ground_false_diagnostic,raw_covers_ground_false_diagnostic,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,2908,,DESCRIPTIVE,"[""U4-r3c3#counts.raw_covers_ground_false_diagnostic""]",,,OBSERVED
+U-r3c3-EMPTY_ROOF_AFTER_1_5M_INSET,EMPTY_ROOF_AFTER_1_5M_INSET,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,788,,DESCRIPTIVE,"[""U4-r3c3#counts.EMPTY_ROOF_AFTER_1_5M_INSET""]",,,OBSERVED
+U-r3c3-RETAIN_UNKNOWN,RETAIN_UNKNOWN,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,801,,DESCRIPTIVE,"[""U4-r3c3#counts.RETAIN_UNKNOWN""]",,,OBSERVED
+U-r3c3-NONEMPTY_ROOF_GRID_CENTERS_LT_140,NONEMPTY_ROOF_GRID_CENTERS_LT_140,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,1756,,DESCRIPTIVE,"[""U4-r3c3#counts.NONEMPTY_ROOF_GRID_CENTERS_LT_140""]",,,OBSERVED
+U-r3c3-EXCLUDE_KNOWN_POSTFLIGHT,EXCLUDE_KNOWN_POSTFLIGHT,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,24,,DESCRIPTIVE,"[""U4-r3c3#counts.EXCLUDE_KNOWN_POSTFLIGHT""]",,,OBSERVED
+U-r3c3-OTHER_NUMERICAL_FAILURE,OTHER_NUMERICAL_FAILURE,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,1,,DESCRIPTIVE,"[""U4-r3c3#counts.OTHER_NUMERICAL_FAILURE""]",,,OBSERVED
+U-r3c3-ROOF_GRID_SUFFICIENT_BUT_VALID_SAMPLES_LT_140,ROOF_GRID_SUFFICIENT_BUT_VALID_SAMPLES_LT_140,r3c3: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,1,,DESCRIPTIVE,"[""U4-r3c3#counts.ROOF_GRID_SUFFICIENT_BUT_VALID_SAMPLES_LT_140""]",,,OBSERVED
+U-r3c3-overlap-ROOF_INSET_EMPTY,ROOF_INSET_EMPTY,r3c3: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,788,,DESCRIPTIVE,"[""U4-r3c3#overlapping_reason_counts.ROOF_INSET_EMPTY""]",,,OBSERVED
+U-r3c3-overlap-ROOF_SAMPLES_LT_140,ROOF_SAMPLES_LT_140,r3c3: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,2545,,DESCRIPTIVE,"[""U4-r3c3#overlapping_reason_counts.ROOF_SAMPLES_LT_140""]",,,OBSERVED
+U-r3c3-overlap-GROUND_SAMPLES_LT_175,GROUND_SAMPLES_LT_175,r3c3: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,132,,DESCRIPTIVE,"[""U4-r3c3#overlapping_reason_counts.GROUND_SAMPLES_LT_175""]",,,OBSERVED
+U-r3c3-overlap-GROUND_AFTER_EXCLUSION_EMPTY,GROUND_AFTER_EXCLUSION_EMPTY,r3c3: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,13,,DESCRIPTIVE,"[""U4-r3c3#overlapping_reason_counts.GROUND_AFTER_EXCLUSION_EMPTY""]",,,OBSERVED
+U-r3c3-overlap-GROUND_PLANE_UNAVAILABLE,GROUND_PLANE_UNAVAILABLE,r3c3: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,1,,DESCRIPTIVE,"[""U4-r3c3#overlapping_reason_counts.GROUND_PLANE_UNAVAILABLE""]",,,OBSERVED
+U-r3c3-roof_area_m2_distribution-median,roof_area_m2_distribution median,r3c3: strict matches,PILOT_ENGINEERING_REVIEW,m2,,,11.485857104589508,,DESCRIPTIVE,"[""U4-r3c3#roof_area_m2_distribution.median""]",,,OBSERVED
+U-r3c3-roof_grid_centers_distribution-median,roof_grid_centers_distribution median,r3c3: strict matches,PILOT_ENGINEERING_REVIEW,grid center,,,46.0,,DESCRIPTIVE,"[""U4-r3c3#roof_grid_centers_distribution.median""]",,,OBSERVED
+U-r3c3-stock-H,H,r3c3: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,,,8,,DESCRIPTIVE,"[""U4-r3c3#strata.H.screened_numeric_stock""]",,,OBSERVED
+U-r3c3-stock-L,L,r3c3: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,,,23,,DESCRIPTIVE,"[""U4-r3c3#strata.L.screened_numeric_stock""]",,,OBSERVED
+U-r3c3-stock-D,D,r3c3: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,,,114,,DESCRIPTIVE,"[""U4-r3c3#strata.D.screened_numeric_stock""]",,,OBSERVED
+U-r3c3-stock-N,N,r3c3: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,,,272,,DESCRIPTIVE,"[""U4-r3c3#strata.N.screened_numeric_stock""]",,,OBSERVED
+U-r4c1-total,total,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,43,,DESCRIPTIVE,"[""U4-r4c1#counts.total""]",,,OBSERVED
+U-r4c1-EMPTY_ROOF_AFTER_1_5M_INSET,EMPTY_ROOF_AFTER_1_5M_INSET,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,3,,DESCRIPTIVE,"[""U4-r4c1#counts.EMPTY_ROOF_AFTER_1_5M_INSET""]",,,OBSERVED
+U-r4c1-numeric_pass,numeric_pass,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,29,,DESCRIPTIVE,"[""U4-r4c1#counts.numeric_pass""]",,,OBSERVED
+U-r4c1-local_flagged,local_flagged,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,0,,DESCRIPTIVE,"[""U4-r4c1#counts.local_flagged""]",,,OBSERVED
+U-r4c1-roof_nodata_total,roof_nodata_total,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,721,,DESCRIPTIVE,"[""U4-r4c1#counts.roof_nodata_total""]",,,OBSERVED
+U-r4c1-ground_nodata_total,ground_nodata_total,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,11281,,DESCRIPTIVE,"[""U4-r4c1#counts.ground_nodata_total""]",,,OBSERVED
+U-r4c1-RETAIN_UNKNOWN,RETAIN_UNKNOWN,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,5,,DESCRIPTIVE,"[""U4-r4c1#counts.RETAIN_UNKNOWN""]",,,OBSERVED
+U-r4c1-screened_numeric_stock,screened_numeric_stock,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,28,,DESCRIPTIVE,"[""U4-r4c1#counts.screened_numeric_stock""]",,,OBSERVED
+U-r4c1-plausible,plausible,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,28,,DESCRIPTIVE,"[""U4-r4c1#counts.plausible""]",,,OBSERVED
+U-r4c1-numeric_known_postflight_excluded,numeric_known_postflight_excluded,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,1,,DESCRIPTIVE,"[""U4-r4c1#counts.numeric_known_postflight_excluded""]",,,OBSERVED
+U-r4c1-screened_unknown,screened_unknown,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,0,,DESCRIPTIVE,"[""U4-r4c1#counts.screened_unknown""]",,,OBSERVED
+U-r4c1-complete_flight_bounds,complete_flight_bounds,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,40,,DESCRIPTIVE,"[""U4-r4c1#counts.complete_flight_bounds""]",,,OBSERVED
+U-r4c1-raw_covers_ground_false_diagnostic,raw_covers_ground_false_diagnostic,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,31,,DESCRIPTIVE,"[""U4-r4c1#counts.raw_covers_ground_false_diagnostic""]",,,OBSERVED
+U-r4c1-NONEMPTY_ROOF_GRID_CENTERS_LT_140,NONEMPTY_ROOF_GRID_CENTERS_LT_140,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,11,,DESCRIPTIVE,"[""U4-r4c1#counts.NONEMPTY_ROOF_GRID_CENTERS_LT_140""]",,,OBSERVED
+U-r4c1-EXCLUDE_KNOWN_POSTFLIGHT,EXCLUDE_KNOWN_POSTFLIGHT,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,2,,DESCRIPTIVE,"[""U4-r4c1#counts.EXCLUDE_KNOWN_POSTFLIGHT""]",,,OBSERVED
+U-r4c1-RETAIN_NOT_PROVEN_POSTFLIGHT,RETAIN_NOT_PROVEN_POSTFLIGHT,r4c1: accepted pilot report (field-specific scope),PILOT_ENGINEERING_REVIEW,record,,,36,,DESCRIPTIVE,"[""U4-r4c1#counts.RETAIN_NOT_PROVEN_POSTFLIGHT""]",,,OBSERVED
+U-r4c1-overlap-ROOF_INSET_EMPTY,ROOF_INSET_EMPTY,r4c1: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,3,,DESCRIPTIVE,"[""U4-r4c1#overlapping_reason_counts.ROOF_INSET_EMPTY""]",,,OBSERVED
+U-r4c1-overlap-ROOF_SAMPLES_LT_140,ROOF_SAMPLES_LT_140,r4c1: strict matches; overlapping diagnostics,PILOT_ENGINEERING_REVIEW,record,,,14,,DESCRIPTIVE,"[""U4-r4c1#overlapping_reason_counts.ROOF_SAMPLES_LT_140""]",,,OBSERVED
+U-r4c1-roof_area_m2_distribution-median,roof_area_m2_distribution median,r4c1: strict matches,PILOT_ENGINEERING_REVIEW,m2,,,81.56509605505079,,DESCRIPTIVE,"[""U4-r4c1#roof_area_m2_distribution.median""]",,,OBSERVED
+U-r4c1-roof_grid_centers_distribution-median,roof_grid_centers_distribution median,r4c1: strict matches,PILOT_ENGINEERING_REVIEW,grid center,,,324.0,,DESCRIPTIVE,"[""U4-r4c1#roof_grid_centers_distribution.median""]",,,OBSERVED
+U-r4c1-stock-D,D,r4c1: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,,,16,,DESCRIPTIVE,"[""U4-r4c1#strata.D.screened_numeric_stock""]",,,OBSERVED
+U-r4c1-stock-N,N,r4c1: screened numerical stock,SCREENED_NUMERICAL_STOCK,record,,,12,,DESCRIPTIVE,"[""U4-r4c1#strata.N.screened_numeric_stock""]",,,OBSERVED
+U-QA-frame_count,frame_count,Fixed two-pilot QA frame/sample as named,FINAL_ADJUDICATED_SAMPLE,record,,,445,,DESCRIPTIVE,"[""U5#frame_count""]",,,OBSERVED
+U-QA-sample_count,sample_count,Fixed two-pilot QA frame/sample as named,FINAL_ADJUDICATED_SAMPLE,record,,,50,,DESCRIPTIVE,"[""U5#sample_count""]",,,OBSERVED
+U-QA-scoring_items,scoring_items,Fixed two-pilot QA frame/sample as named,FINAL_ADJUDICATED_SAMPLE,record,,,250,,DESCRIPTIVE,"[""U5#scoring_items""]",,,OBSERVED
+U-QA-initial_concordant_items,initial_concordant_items,Fixed two-pilot QA frame/sample as named,FINAL_ADJUDICATED_SAMPLE,record,,,244,,DESCRIPTIVE,"[""U5#initial_concordant_items""]",,,OBSERVED
+U-QA-adjudicated_items,adjudicated_items,Fixed two-pilot QA frame/sample as named,FINAL_ADJUDICATED_SAMPLE,record,,,6,,DESCRIPTIVE,"[""U5#adjudicated_items""]",,,OBSERVED
+U-QA-replacements,replacements,Fixed two-pilot QA frame/sample as named,FINAL_ADJUDICATED_SAMPLE,record,,,0,,DESCRIPTIVE,"[""U5#replacements""]",,,OBSERVED
+U-QA-site-r3c3,QA site allocation,r3c3 within fixed sample,FINAL_ADJUDICATED_SAMPLE,record,46,47,,0.9787234042553191,DESCRIPTIVE,"[""U5#sites[r3c3]""]",,,OBSERVED
+U-QA-site-r4c1,QA site allocation,r4c1 within fixed sample,FINAL_ADJUDICATED_SAMPLE,record,3,3,,1.0,DESCRIPTIVE,"[""U5#sites[r4c1]""]",,,OBSERVED
+M-M01,terminal H or L,Milan_fixed25_diagnostic_deduplicated_OSM,HISTORICAL_Milan_fixed25_diagnostic_deduplicated_OSM,OSM object,1170,8055,,0.1452513966480447,DESCRIPTIVE,"[""M2#claims[M01]""]",,,OBSERVED
+M-M02,terminal H or L or D,Milan_fixed25_diagnostic_deduplicated_OSM,HISTORICAL_Milan_fixed25_diagnostic_deduplicated_OSM,OSM object,4727,8055,,0.5868404717566729,DESCRIPTIVE,"[""M2#claims[M02]""]",,,OBSERVED
+M-M03,primary eligible within five held-out support sites,Milan_S_star_primary_eligible,HISTORICAL_Milan_S_star_primary_eligible,strict matched pair,,,1679,,DESCRIPTIVE,"[""M2#claims[M03]""]",,,OBSERVED
+M-M04,"historical primary_eligible / geometry_eligible, all confirmatory candidate sites",Milan_all_confirmatory_geometry_candidates,HISTORICAL_Milan_all_confirmatory_geometry_candidates,strict matched pair,1767,1777,,0.9943725379853686,DESCRIPTIVE,"[""M2#claims[M04]""]",,,OBSERVED
+M-M05,"H/L-supported matched pairs within S_star; H=1, L=125",Milan_S_star_primary_eligible,HISTORICAL_Milan_S_star_primary_eligible,strict matched pair with source H/L,,,126,,DESCRIPTIVE,"[""M2#claims[M05]""]",,,OBSERVED
+M-M06,H/L observations in r4c5 and r5c3 / all H/L in S_star,Milan_S_star_HL,HISTORICAL_Milan_S_star_HL,H/L-supported matched pair,106,126,,0.8412698412698413,DESCRIPTIVE,"[""M2#claims[M06]""]",,,OBSERVED
+M-M07,strict final PASS; FAIL and UNSURE both nonpassing,Milan_historical_QA_final_author_adjudicated,HISTORICAL_Milan_historical_QA_final_author_adjudicated,QA sample,43,50,,0.86,DESCRIPTIVE,"[""M2#claims[M07]""]",,,OBSERVED
+M-default-gap,Default contribution in percentage points,"Milan diagnostic 8,055 OSM objects",DIAGNOSTIC,OSM object,3557,8055,,0.44158907510862816,DESCRIPTIVE,"[""M2#rounding_note""]",,,OBSERVED
+M-diagnostic-H,H,"Milan diagnostic 8,055 OSM objects",DIAGNOSTIC,OSM object,,,11,,DESCRIPTIVE,"[""M2#claims[M01].components.H""]",,,OBSERVED
+M-diagnostic-L,L,"Milan diagnostic 8,055 OSM objects",DIAGNOSTIC,OSM object,,,1159,,DESCRIPTIVE,"[""M2#claims[M01].components.L""]",,,OBSERVED
+M-diagnostic-D,D,"Milan diagnostic 8,055 OSM objects",DIAGNOSTIC,OSM object,,,3557,,DESCRIPTIVE,"[""M2#claims[M01].components.D""]",,,OBSERVED
+M-diagnostic-N,N,"Milan diagnostic 8,055 OSM objects",DIAGNOSTIC,OSM object,,,3328,,DESCRIPTIVE,"[""M2#claims[M01].components.N""]",,,OBSERVED
+M-QA-D,QA stratum D,Milan final QA sample,FINAL_AUTHOR_REVIEW,record,21,25,,0.84,SATISFIED,"[""M3#by_provenance.D""]",M2#claims[M07]; historical QA >=80%,0.8,OBSERVED
+M-QA-L,QA stratum L,Milan final QA sample,FINAL_AUTHOR_REVIEW,record,13,15,,0.8666666666666667,SATISFIED,"[""M3#by_provenance.L""]",M2#claims[M07]; historical QA >=80%,0.8,OBSERVED
+M-QA-N,QA stratum N,Milan final QA sample,FINAL_AUTHOR_REVIEW,record,9,10,,0.9,SATISFIED,"[""M3#by_provenance.N""]",M2#claims[M07]; historical QA >=80%,0.8,OBSERVED
+M-QA-overall,Final overall QA,Milan final 50-case sample,FINAL_AUTHOR_REVIEW,record,43,50,,0.86,UNMET,"[""M3#final_overall"", ""M2#claims[M07]""]",M4#manual QA >=45/50,0.9,OBSERVED
+U-context,Support-selection objects,"25 fixed 1,000 m support disks",COMPLETE_GEOMETRY_SELECTION,OSM object,,,46502,,DESCRIPTIVE,"[""U6#unique_selected_objects""]",,,OBSERVED

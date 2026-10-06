@@ -1,0 +1,1220 @@
+{
+  "diagnostic_n": 8055,
+  "source_n": 1170,
+  "assigned_n": 4727,
+  "zero_HL_high_completion_sites": [
+    "r1c2",
+    "r1c3",
+    "r1c4",
+    "r1c5",
+    "r2c2",
+    "r3c3",
+    "r3c4",
+    "r4c2",
+    "r4c3"
+  ],
+  "site_summary": [
+    {
+      "site_id": "r1c1",
+      "object_count": "1",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "0",
+      "legacy_assignment_coverage": "0.0",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r1c2",
+      "object_count": "32",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "30",
+      "legacy_assignment_coverage": "0.9375",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r1c3",
+      "object_count": "23",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "23",
+      "legacy_assignment_coverage": "1.0",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r1c4",
+      "object_count": "196",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "193",
+      "legacy_assignment_coverage": "0.9846938775510204",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r1c5",
+      "object_count": "259",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "251",
+      "legacy_assignment_coverage": "0.9691119691119691",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r2c1",
+      "object_count": "1075",
+      "height_tag_present_count": "1",
+      "height_tag_present_rate": "0.0009302325581395349",
+      "usable_height_count": "1",
+      "usable_height_rate": "0.0009302325581395349",
+      "building_levels_tag_present_count": "1",
+      "building_levels_tag_present_rate": "0.0009302325581395349",
+      "usable_building_levels_count": "1",
+      "usable_building_levels_rate": "0.0009302325581395349",
+      "any_source_evidence_count": "1",
+      "any_source_evidence_rate": "0.0009302325581395349",
+      "legacy_assignment_complete_count": "919",
+      "legacy_assignment_coverage": "0.8548837209302326",
+      "no_default_assignment_complete_count": "1",
+      "no_default_assignment_coverage": "0.0009302325581395349"
+    },
+    {
+      "site_id": "r2c2",
+      "object_count": "19",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "19",
+      "legacy_assignment_coverage": "1.0",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r2c3",
+      "object_count": "29",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "10",
+      "legacy_assignment_coverage": "0.3448275862068966",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r2c4",
+      "object_count": "350",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "1",
+      "building_levels_tag_present_rate": "0.002857142857142857",
+      "usable_building_levels_count": "1",
+      "usable_building_levels_rate": "0.002857142857142857",
+      "any_source_evidence_count": "1",
+      "any_source_evidence_rate": "0.002857142857142857",
+      "legacy_assignment_complete_count": "283",
+      "legacy_assignment_coverage": "0.8085714285714286",
+      "no_default_assignment_complete_count": "1",
+      "no_default_assignment_coverage": "0.002857142857142857"
+    },
+    {
+      "site_id": "r2c5",
+      "object_count": "36",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "2",
+      "legacy_assignment_coverage": "0.05555555555555555",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r3c1",
+      "object_count": "0",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "",
+      "usable_height_count": "0",
+      "usable_height_rate": "",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "",
+      "legacy_assignment_complete_count": "0",
+      "legacy_assignment_coverage": "",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": ""
+    },
+    {
+      "site_id": "r3c2",
+      "object_count": "634",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "170",
+      "building_levels_tag_present_rate": "0.26813880126182965",
+      "usable_building_levels_count": "170",
+      "usable_building_levels_rate": "0.26813880126182965",
+      "any_source_evidence_count": "170",
+      "any_source_evidence_rate": "0.26813880126182965",
+      "legacy_assignment_complete_count": "504",
+      "legacy_assignment_coverage": "0.7949526813880127",
+      "no_default_assignment_complete_count": "170",
+      "no_default_assignment_coverage": "0.26813880126182965"
+    },
+    {
+      "site_id": "r3c3",
+      "object_count": "15",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "15",
+      "legacy_assignment_coverage": "1.0",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r3c4",
+      "object_count": "21",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "21",
+      "legacy_assignment_coverage": "1.0",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r3c5",
+      "object_count": "623",
+      "height_tag_present_count": "1",
+      "height_tag_present_rate": "0.0016051364365971107",
+      "usable_height_count": "1",
+      "usable_height_rate": "0.0016051364365971107",
+      "building_levels_tag_present_count": "36",
+      "building_levels_tag_present_rate": "0.05778491171749599",
+      "usable_building_levels_count": "36",
+      "usable_building_levels_rate": "0.05778491171749599",
+      "any_source_evidence_count": "36",
+      "any_source_evidence_rate": "0.05778491171749599",
+      "legacy_assignment_complete_count": "122",
+      "legacy_assignment_coverage": "0.1958266452648475",
+      "no_default_assignment_complete_count": "36",
+      "no_default_assignment_coverage": "0.05778491171749599"
+    },
+    {
+      "site_id": "r4c1",
+      "object_count": "20",
+      "height_tag_present_count": "4",
+      "height_tag_present_rate": "0.2",
+      "usable_height_count": "4",
+      "usable_height_rate": "0.2",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "4",
+      "any_source_evidence_rate": "0.2",
+      "legacy_assignment_complete_count": "20",
+      "legacy_assignment_coverage": "1.0",
+      "no_default_assignment_complete_count": "4",
+      "no_default_assignment_coverage": "0.2"
+    },
+    {
+      "site_id": "r4c2",
+      "object_count": "25",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "23",
+      "legacy_assignment_coverage": "0.92",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r4c3",
+      "object_count": "47",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "47",
+      "legacy_assignment_coverage": "1.0",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r4c4",
+      "object_count": "689",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "10",
+      "building_levels_tag_present_rate": "0.01451378809869376",
+      "usable_building_levels_count": "10",
+      "usable_building_levels_rate": "0.01451378809869376",
+      "any_source_evidence_count": "10",
+      "any_source_evidence_rate": "0.01451378809869376",
+      "legacy_assignment_complete_count": "378",
+      "legacy_assignment_coverage": "0.548621190130624",
+      "no_default_assignment_complete_count": "10",
+      "no_default_assignment_coverage": "0.01451378809869376"
+    },
+    {
+      "site_id": "r4c5",
+      "object_count": "1372",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "359",
+      "building_levels_tag_present_rate": "0.26166180758017493",
+      "usable_building_levels_count": "359",
+      "usable_building_levels_rate": "0.26166180758017493",
+      "any_source_evidence_count": "359",
+      "any_source_evidence_rate": "0.26166180758017493",
+      "legacy_assignment_complete_count": "783",
+      "legacy_assignment_coverage": "0.5706997084548106",
+      "no_default_assignment_complete_count": "359",
+      "no_default_assignment_coverage": "0.26166180758017493"
+    },
+    {
+      "site_id": "r5c1",
+      "object_count": "154",
+      "height_tag_present_count": "2",
+      "height_tag_present_rate": "0.012987012987012988",
+      "usable_height_count": "2",
+      "usable_height_rate": "0.012987012987012988",
+      "building_levels_tag_present_count": "24",
+      "building_levels_tag_present_rate": "0.15584415584415584",
+      "usable_building_levels_count": "24",
+      "usable_building_levels_rate": "0.15584415584415584",
+      "any_source_evidence_count": "24",
+      "any_source_evidence_rate": "0.15584415584415584",
+      "legacy_assignment_complete_count": "52",
+      "legacy_assignment_coverage": "0.33766233766233766",
+      "no_default_assignment_complete_count": "24",
+      "no_default_assignment_coverage": "0.15584415584415584"
+    },
+    {
+      "site_id": "r5c2",
+      "object_count": "24",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "0",
+      "building_levels_tag_present_rate": "0.0",
+      "usable_building_levels_count": "0",
+      "usable_building_levels_rate": "0.0",
+      "any_source_evidence_count": "0",
+      "any_source_evidence_rate": "0.0",
+      "legacy_assignment_complete_count": "17",
+      "legacy_assignment_coverage": "0.7083333333333334",
+      "no_default_assignment_complete_count": "0",
+      "no_default_assignment_coverage": "0.0"
+    },
+    {
+      "site_id": "r5c3",
+      "object_count": "906",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "90",
+      "building_levels_tag_present_rate": "0.09933774834437085",
+      "usable_building_levels_count": "90",
+      "usable_building_levels_rate": "0.09933774834437085",
+      "any_source_evidence_count": "90",
+      "any_source_evidence_rate": "0.09933774834437085",
+      "legacy_assignment_complete_count": "187",
+      "legacy_assignment_coverage": "0.206401766004415",
+      "no_default_assignment_complete_count": "90",
+      "no_default_assignment_coverage": "0.09933774834437085"
+    },
+    {
+      "site_id": "r5c4",
+      "object_count": "841",
+      "height_tag_present_count": "3",
+      "height_tag_present_rate": "0.0035671819262782403",
+      "usable_height_count": "3",
+      "usable_height_rate": "0.0035671819262782403",
+      "building_levels_tag_present_count": "358",
+      "building_levels_tag_present_rate": "0.42568370986920334",
+      "usable_building_levels_count": "358",
+      "usable_building_levels_rate": "0.42568370986920334",
+      "any_source_evidence_count": "361",
+      "any_source_evidence_rate": "0.4292508917954816",
+      "legacy_assignment_complete_count": "454",
+      "legacy_assignment_coverage": "0.539833531510107",
+      "no_default_assignment_complete_count": "361",
+      "no_default_assignment_coverage": "0.4292508917954816"
+    },
+    {
+      "site_id": "r5c5",
+      "object_count": "664",
+      "height_tag_present_count": "0",
+      "height_tag_present_rate": "0.0",
+      "usable_height_count": "0",
+      "usable_height_rate": "0.0",
+      "building_levels_tag_present_count": "114",
+      "building_levels_tag_present_rate": "0.1716867469879518",
+      "usable_building_levels_count": "114",
+      "usable_building_levels_rate": "0.1716867469879518",
+      "any_source_evidence_count": "114",
+      "any_source_evidence_rate": "0.1716867469879518",
+      "legacy_assignment_complete_count": "374",
+      "legacy_assignment_coverage": "0.5632530120481928",
+      "no_default_assignment_complete_count": "114",
+      "no_default_assignment_coverage": "0.1716867469879518"
+    }
+  ],
+  "site_coordinates": [
+    {
+      "site_id": "r1c1",
+      "row": "1",
+      "col": "1",
+      "latitude": "45.272004",
+      "longitude": "8.842570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r1c2",
+      "row": "1",
+      "col": "2",
+      "latitude": "45.272004",
+      "longitude": "8.922570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r1c3",
+      "row": "1",
+      "col": "3",
+      "latitude": "45.272004",
+      "longitude": "9.002570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r1c4",
+      "row": "1",
+      "col": "4",
+      "latitude": "45.272004",
+      "longitude": "9.082570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r1c5",
+      "row": "1",
+      "col": "5",
+      "latitude": "45.272004",
+      "longitude": "9.162570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r2c1",
+      "row": "2",
+      "col": "1",
+      "latitude": "45.332004",
+      "longitude": "8.842570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r2c2",
+      "row": "2",
+      "col": "2",
+      "latitude": "45.332004",
+      "longitude": "8.922570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r2c3",
+      "row": "2",
+      "col": "3",
+      "latitude": "45.332004",
+      "longitude": "9.002570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r2c4",
+      "row": "2",
+      "col": "4",
+      "latitude": "45.332004",
+      "longitude": "9.082570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r2c5",
+      "row": "2",
+      "col": "5",
+      "latitude": "45.332004",
+      "longitude": "9.162570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r3c1",
+      "row": "3",
+      "col": "1",
+      "latitude": "45.392004",
+      "longitude": "8.842570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r3c2",
+      "row": "3",
+      "col": "2",
+      "latitude": "45.392004",
+      "longitude": "8.922570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r3c3",
+      "row": "3",
+      "col": "3",
+      "latitude": "45.392004",
+      "longitude": "9.002570",
+      "radius_m": "800",
+      "is_anchor": "true"
+    },
+    {
+      "site_id": "r3c4",
+      "row": "3",
+      "col": "4",
+      "latitude": "45.392004",
+      "longitude": "9.082570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r3c5",
+      "row": "3",
+      "col": "5",
+      "latitude": "45.392004",
+      "longitude": "9.162570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r4c1",
+      "row": "4",
+      "col": "1",
+      "latitude": "45.452004",
+      "longitude": "8.842570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r4c2",
+      "row": "4",
+      "col": "2",
+      "latitude": "45.452004",
+      "longitude": "8.922570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r4c3",
+      "row": "4",
+      "col": "3",
+      "latitude": "45.452004",
+      "longitude": "9.002570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r4c4",
+      "row": "4",
+      "col": "4",
+      "latitude": "45.452004",
+      "longitude": "9.082570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r4c5",
+      "row": "4",
+      "col": "5",
+      "latitude": "45.452004",
+      "longitude": "9.162570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r5c1",
+      "row": "5",
+      "col": "1",
+      "latitude": "45.512004",
+      "longitude": "8.842570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r5c2",
+      "row": "5",
+      "col": "2",
+      "latitude": "45.512004",
+      "longitude": "8.922570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r5c3",
+      "row": "5",
+      "col": "3",
+      "latitude": "45.512004",
+      "longitude": "9.002570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r5c4",
+      "row": "5",
+      "col": "4",
+      "latitude": "45.512004",
+      "longitude": "9.082570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    },
+    {
+      "site_id": "r5c5",
+      "row": "5",
+      "col": "5",
+      "latitude": "45.512004",
+      "longitude": "9.162570",
+      "radius_m": "800",
+      "is_anchor": "false"
+    }
+  ],
+  "S_star_HL_by_site": {
+    "r2c4": 1,
+    "r3c5": 14,
+    "r4c4": 5,
+    "r4c5": 88,
+    "r5c3": 18
+  },
+  "S_star_non_HL_by_site": {
+    "r2c4": 149,
+    "r3c5": 335,
+    "r4c4": 351,
+    "r4c5": 244,
+    "r5c3": 474
+  },
+  "morphology": {
+    "site_diagnostics": [
+      {
+        "site_id": "r2c4",
+        "propensity_in_range_fraction_T0": 1.0,
+        "propensity_in_range_fraction_T1": 1.0,
+        "weighted_abs_smd": {
+          "log_common_footprint_area_m2": 0.34580249341017644,
+          "common_compactness": 0.1478940256397937,
+          "common_bbox_aspect_ratio": 0.03080561663876072,
+          "log_building_count_100m": 0.4806801009930867
+        },
+        "passed": false
+      },
+      {
+        "site_id": "r3c5",
+        "propensity_in_range_fraction_T0": 0.9772727272727273,
+        "propensity_in_range_fraction_T1": 1.0,
+        "weighted_abs_smd": {
+          "log_common_footprint_area_m2": 0.5121069018179384,
+          "common_compactness": 0.05602848092141552,
+          "common_bbox_aspect_ratio": 0.17690216981031281,
+          "log_building_count_100m": 0.054599850092737004
+        },
+        "passed": false
+      },
+      {
+        "site_id": "r4c4",
+        "propensity_in_range_fraction_T0": 1.0,
+        "propensity_in_range_fraction_T1": 1.0,
+        "weighted_abs_smd": {
+          "log_common_footprint_area_m2": 0.47168917660975984,
+          "common_compactness": 0.32330960636671774,
+          "common_bbox_aspect_ratio": 0.5500697104522908,
+          "log_building_count_100m": 0.5436272740566379
+        },
+        "passed": false
+      },
+      {
+        "site_id": "r4c5",
+        "propensity_in_range_fraction_T0": 1.0,
+        "propensity_in_range_fraction_T1": 1.0,
+        "weighted_abs_smd": {
+          "log_common_footprint_area_m2": 0.34526807964419065,
+          "common_compactness": 0.032080074302233065,
+          "common_bbox_aspect_ratio": 0.24574198205588713,
+          "log_building_count_100m": 0.1735059509681936
+        },
+        "passed": false
+      },
+      {
+        "site_id": "r5c3",
+        "propensity_in_range_fraction_T0": 1.0,
+        "propensity_in_range_fraction_T1": 1.0,
+        "weighted_abs_smd": {
+          "log_common_footprint_area_m2": 0.0714949084221668,
+          "common_compactness": 0.2775207439235447,
+          "common_bbox_aspect_ratio": 0.2761593317424713,
+          "log_building_count_100m": 0.34051792768975886
+        },
+        "passed": false
+      }
+    ],
+    "pooled_weighted_abs_smd": {
+      "log_common_footprint_area_m2": 0.0033366065158157467,
+      "common_compactness": 0.00033178987526836205,
+      "common_bbox_aspect_ratio": 0.0005247393662836478,
+      "log_building_count_100m": 0.0025815084669809957
+    },
+    "pooled_passed": true,
+    "all_sites_passed": false
+  },
+  "Utrecht_coordinates": [
+    {
+      "site_id": "r1c1",
+      "easting_m": 123470,
+      "northing_m": 441664,
+      "longitude": 4.9284452228844895,
+      "latitude": 51.9625087901968,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r1c2",
+      "easting_m": 129735,
+      "northing_m": 441664,
+      "longitude": 5.019598179742007,
+      "latitude": 51.96282891654424,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r1c3",
+      "easting_m": 136000,
+      "northing_m": 441664,
+      "longitude": 5.110752469850301,
+      "latitude": 51.963078391663686,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r1c4",
+      "easting_m": 142265,
+      "northing_m": 441664,
+      "longitude": 5.201907762511983,
+      "latitude": 51.963257213666196,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r1c5",
+      "easting_m": 148530,
+      "northing_m": 441664,
+      "longitude": 5.29306372700534,
+      "latitude": 51.96336538119773,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r2c1",
+      "easting_m": 123470,
+      "northing_m": 448332,
+      "longitude": 4.927831873383734,
+      "latitude": 52.022440269466884,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r2c2",
+      "easting_m": 129735,
+      "northing_m": 448332,
+      "longitude": 5.019106737111622,
+      "latitude": 52.02276095165606,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r2c3",
+      "easting_m": 136000,
+      "northing_m": 448332,
+      "longitude": 5.110382940155863,
+      "latitude": 52.023010859968,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r2c4",
+      "easting_m": 142265,
+      "northing_m": 448332,
+      "longitude": 5.201660150314652,
+      "latitude": 52.02318999250584,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r2c5",
+      "easting_m": 148530,
+      "northing_m": 448332,
+      "longitude": 5.292938035361661,
+      "latitude": 52.02329834790987,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r3c1",
+      "easting_m": 123470,
+      "northing_m": 455000,
+      "longitude": 4.927216630434353,
+      "latitude": 52.08237120425001,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r3c2",
+      "easting_m": 129735,
+      "northing_m": 455000,
+      "longitude": 5.018613777311833,
+      "latitude": 52.08269244376875,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r3c3",
+      "easting_m": 136000,
+      "northing_m": 455000,
+      "longitude": 5.110012269608174,
+      "latitude": 52.082942786432646,
+      "role": "engineering_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r3c4",
+      "easting_m": 142265,
+      "northing_m": 455000,
+      "longitude": 5.201411773607986,
+      "latitude": 52.08312223033699,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r3c5",
+      "easting_m": 148530,
+      "northing_m": 455000,
+      "longitude": 5.292811955571174,
+      "latitude": 52.08323077411643,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r4c1",
+      "easting_m": 123470,
+      "northing_m": 461668,
+      "longitude": 4.926599485409145,
+      "latitude": 52.142301562150955,
+      "role": "engineering_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r4c2",
+      "easting_m": 129735,
+      "northing_m": 461668,
+      "longitude": 5.018119293429742,
+      "latitude": 52.14262336049381,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r4c3",
+      "easting_m": 136000,
+      "northing_m": 461668,
+      "longitude": 5.109640453008914,
+      "latitude": 52.142874138674514,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r4c4",
+      "easting_m": 142265,
+      "northing_m": 461668,
+      "longitude": 5.201162628908461,
+      "latitude": 52.14305389478036,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r4c5",
+      "easting_m": 148530,
+      "northing_m": 461668,
+      "longitude": 5.29268548586529,
+      "latitude": 52.14316262744019,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r5c1",
+      "easting_m": 123470,
+      "northing_m": 468336,
+      "longitude": 4.925980429628306,
+      "latitude": 52.20223131077929,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r5c2",
+      "easting_m": 129735,
+      "northing_m": 468336,
+      "longitude": 5.017623278510298,
+      "latitude": 52.20255366944753,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r5c3",
+      "easting_m": 136000,
+      "northing_m": 468336,
+      "longitude": 5.10926748512807,
+      "latitude": 52.20280488431504,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r5c4",
+      "easting_m": 142265,
+      "northing_m": 468336,
+      "longitude": 5.200912712711314,
+      "latitude": 52.20298495346109,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    },
+    {
+      "site_id": "r5c5",
+      "easting_m": 148530,
+      "northing_m": 468336,
+      "longitude": 5.292558624464636,
+      "latitude": 52.20309387550879,
+      "role": "non_pilot",
+      "analysis_radius_m": 800,
+      "required_support_radius_m": 1000
+    }
+  ],
+  "qa_examples": [
+    {
+      "city": "Utrecht",
+      "case_id": "Q012",
+      "judgment": "PASS",
+      "site_id": "r3c3",
+      "record_key": "way/55311676",
+      "failed_items": [],
+      "unsure_items": []
+    },
+    {
+      "city": "Utrecht",
+      "case_id": "Q025",
+      "judgment": "PASS",
+      "site_id": "r4c1",
+      "record_key": "way/284513763",
+      "failed_items": [],
+      "unsure_items": []
+    },
+    {
+      "city": "Utrecht",
+      "case_id": "Q035",
+      "judgment": "FAIL",
+      "site_id": "r3c3",
+      "record_key": "way/298568987",
+      "failed_items": [
+        "roof_support"
+      ],
+      "unsure_items": []
+    },
+    {
+      "city": "Milan",
+      "case_id": "Q01",
+      "judgment": "PASS",
+      "site_id": "r3c5",
+      "record_key": "way/984613664"
+    },
+    {
+      "city": "Milan",
+      "case_id": "Q03",
+      "judgment": "UNSURE",
+      "site_id": "r4c5",
+      "record_key": "way/329907918",
+      "unsure_items": [
+        "seam"
+      ]
+    }
+  ],
+  "scope": "Supplement to the unchanged Table 2 registry; retained small summaries and evidence examples, not new raw-data analysis.",
+  "morphology_comparison": "Within-site upper versus lower roof-proxy quartiles in S*. Overlap weights e for lower group and 1-e for upper group; not an H/L versus D/N comparison.",
+  "source_hashes": [
+    {
+      "source_id": "FIGSRC-001",
+      "sha256": "c84797e06aa734361689626cf336edd44dd5328bdec6be3b7c8099b9674c2a87",
+      "bytes": 6243
+    },
+    {
+      "source_id": "FIGSRC-002",
+      "sha256": "c7a5702cc8f9c5d7ae437b467c439d67ed948c886451e4aea55b5361d824301a",
+      "bytes": 1003
+    },
+    {
+      "source_id": "FIGSRC-003",
+      "sha256": "4c1fa4e6aa3c09639fb337101388efeb46b52b947a78b2fd096d8509db549612",
+      "bytes": 2776
+    },
+    {
+      "source_id": "FIGSRC-004",
+      "sha256": "5c3326a13af203cad8f72718b49cfd945cd01bf7755f61f47ea78b9729c4078e",
+      "bytes": 14304
+    },
+    {
+      "source_id": "FIGSRC-005",
+      "sha256": "6e00c879da7906411c2304df22059b4cf48259b5d108f90f43f30cd0ba440b5f",
+      "bytes": 54735
+    },
+    {
+      "source_id": "FIGSRC-006",
+      "sha256": "a80edd2ed2586954b7901521388e633c95ac7d3ebb6ab677a9cd191b432cd0a1",
+      "bytes": 217686
+    },
+    {
+      "source_id": "FIGSRC-007",
+      "sha256": "67271902b53d58b654da0792fc3c811b5930e497185c5fc30f038f05ab473fad",
+      "bytes": 281668
+    },
+    {
+      "source_id": "FIGSRC-008",
+      "sha256": "b11bfedfd2265d993bb56eddcb1f5e803efdc6f798c0139af0f6b564c5f2f76a",
+      "bytes": 13902
+    },
+    {
+      "source_id": "FIGSRC-009",
+      "sha256": "f3dc152cb41313741772c8b33f06d23df65a122184cd0cb111e3e4d4dd933af7",
+      "bytes": 30524
+    },
+    {
+      "source_id": "FIGSRC-010",
+      "sha256": "ad04236c27689ee6c1522fcf84350f3788fe0e65980b221c61ac2a1d6cfa5cea",
+      "bytes": 32260
+    },
+    {
+      "source_id": "FIGSRC-011",
+      "sha256": "63f6f6806b8b3ad6f833338452ca38aad40df59d1417b4cb3d07e8401c18458d",
+      "bytes": 50120
+    },
+    {
+      "source_id": "FIGSRC-012",
+      "sha256": "b3b935a2b5b9f9ed68b72c215d803da65d1704e37b7c82856a373d2af50cd36e",
+      "bytes": 74039
+    },
+    {
+      "source_id": "FIGSRC-013",
+      "sha256": "3e479930cd2aabead22fde6cc118c7b1befa7b994a844bf24f8e4596548ff804",
+      "bytes": 61787
+    },
+    {
+      "source_id": "FIGSRC-014",
+      "sha256": "6ea2c4b1dd65ce732571a549a9e6cdc947fd3c96cb0db867abdd9a0b5a0db029",
+      "bytes": 33639
+    },
+    {
+      "source_id": "FIGSRC-015",
+      "sha256": "b60bf2df4638ffb928eef4d524ae1d88d5872095e621369f63717237aa48b8d3",
+      "bytes": 88646
+    },
+    {
+      "source_id": "FIGSRC-016",
+      "sha256": "641a42144d6373acb9cca2fdfa3dba184474fdf3ea409077219fa4f68fd3be23",
+      "bytes": 59226
+    },
+    {
+      "source_id": "FIGSRC-017",
+      "sha256": "067b63d3679ab603f3edc070b10124b00dd36eb6b66244dc4dccf05851748ac8",
+      "bytes": 42044
+    },
+    {
+      "source_id": "FIGSRC-018",
+      "sha256": "bd402aaf4905ec5b9f87470f85f09c1cafccf4086a00d8e2964255e37fbe148e",
+      "bytes": 123877
+    },
+    {
+      "source_id": "FIGSRC-019",
+      "sha256": "c0eed6b850823a41aa674cc57c5690bbe2d7b437b689f9874e3d679ec9906154",
+      "bytes": 74617
+    },
+    {
+      "source_id": "FIGSRC-020",
+      "sha256": "ffc58e163adc8cb8336f94f71d0d1f0ac8f22e5703be1669ca568c0352e74e7d",
+      "bytes": 24236
+    },
+    {
+      "source_id": "FIGSRC-021",
+      "sha256": "f6f563ed94a6bd931b2d424944480a8a8ceef2c6415a9545964ba997f44212ca",
+      "bytes": 43994
+    },
+    {
+      "source_id": "FIGSRC-022",
+      "sha256": "2572159e364501f1e038ac8fc95741450d084fd5d5a3db1a41b18cb06e3382c6",
+      "bytes": 53770
+    },
+    {
+      "source_id": "FIGSRC-023",
+      "sha256": "3a8b2886411264a3e53c5cb89e4f7826679caaf7c024cc6b75bfbc901fb511e2",
+      "bytes": 271332
+    },
+    {
+      "source_id": "FIGSRC-024",
+      "sha256": "428dc14f5217a39170d8cc75b5383da3385c673a7f97b7195d2e976e8f2e2070",
+      "bytes": 8814
+    },
+    {
+      "source_id": "FIGSRC-025",
+      "sha256": "779917e5552007a93e03467091ff771cd2d37871ec84c0f5e781d7def81daa42",
+      "bytes": 25859
+    },
+    {
+      "source_id": "FIGSRC-026",
+      "sha256": "064a3b2e378abf09b5352db7c6a2c8f73f24bad8a9eeff24f01ab296627d07d0",
+      "bytes": 22287
+    },
+    {
+      "source_id": "FIGSRC-027",
+      "sha256": "517e0d05aaf5372b264db1eab78d295762bdb2069a31f522b60517456ab23aeb",
+      "bytes": 63024
+    }
+  ]
+}

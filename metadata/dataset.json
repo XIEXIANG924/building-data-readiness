@@ -1,0 +1,15 @@
+{
+  "title": "Numerical summaries and QA records for a provenance-aware assessment model for building data",
+  "related_manuscript_title": "From field completeness to analytical readiness: A provenance-aware assessment model for building data",
+  "dataset_version": "1.0.0",
+  "manuscript_source_version": "23.1",
+  "scope": "Two Utrecht engineering pilots and the historical western Milan case; 25-site Utrecht support-selection context only",
+  "contents": "Published-summary registries, site summaries, source coordinates, historical morphology diagnostics, aggregate Utrecht QA counts and an archive-verification script",
+  "doi": null,
+  "repository_url": null,
+  "reuse_license": "CC-BY-4.0",
+  "raw_inputs_included": false,
+  "original_processing_code_included": false,
+  "complete_reproduction_from_raw_inputs": false,
+  "endpoint_contract_complete": false
+}

@@ -1,0 +1,3 @@
+site_id,total,empty,insufficient_centers,numeric_pass,other,yield_threshold,yield_state
+r3c3,2980,788,1756,434,2,0.8,UNMET
+r4c1,43,3,11,29,0,0.8,UNMET

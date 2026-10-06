@@ -1,0 +1,12 @@
+dataset,scope,local_availability,recovered_file_count,recovered_bytes,raw_payload_in_this_archive,inventory_basis
+Utrecht global OSM history,OSM raw source,not located in recovery manifest,0,0,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Utrecht OSM selected geometry,"1,000 m support-selection output",available locally,16,20705314,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Utrecht BAG capture,25-site captured source pages,available locally,75,47833920,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Utrecht AHN4 DSM/DTM,72 bound source TIFFs,not located in recovery manifest,0,0,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Utrecht strict matching,two-pilot matching output,available locally,2,4377038,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Utrecht height processing,two-pilot height rows,available locally,61,51979657,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Milan diagnostic OSM,historical diagnostic query response,available locally,1,1282180,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Milan confirmatory OSM,historical complete-geometry query responses,available locally,11,3926516,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Milan confirmatory DBGT,historical source responses,available locally,127,19787838,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Milan confirmatory raster,historical extracted GeoTIFF inputs,available locally,198,792670032,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis
+Milan processed master table,canonical retained real table v6,available locally,1,2933362,False,Retained recovery manifest and targeted presence/size checks; no new raw-input analysis

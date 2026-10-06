@@ -1,0 +1,79 @@
+{
+  "scope": "FROZEN_FIXED_50_SAMPLE_FROM_TWO_PILOT_SCREENED_NUMERIC_STOCK",
+  "frame_count": 445,
+  "sample_count": 50,
+  "scoring_items": 250,
+  "initial_concordant_items": 244,
+  "adjudicated_items": 6,
+  "replacements": 0,
+  "case_counts": {
+    "PASS": 49,
+    "FAIL": 1
+  },
+  "pass_numerator": 49,
+  "pass_denominator": 50,
+  "pass_fraction": 0.98,
+  "overall_benchmark_min_pass": 45,
+  "overall_benchmark_satisfied": true,
+  "stratum_benchmark_min": 0.8,
+  "strata": [
+    {
+      "stratum": "H",
+      "numerator": 1,
+      "denominator": 1,
+      "pass_fraction": 1.0,
+      "benchmark_satisfied": true
+    },
+    {
+      "stratum": "L",
+      "numerator": 2,
+      "denominator": 2,
+      "pass_fraction": 1.0,
+      "benchmark_satisfied": true
+    },
+    {
+      "stratum": "D",
+      "numerator": 14,
+      "denominator": 15,
+      "pass_fraction": 0.9333333333333333,
+      "benchmark_satisfied": true
+    },
+    {
+      "stratum": "N",
+      "numerator": 32,
+      "denominator": 32,
+      "pass_fraction": 1.0,
+      "benchmark_satisfied": true
+    }
+  ],
+  "sites": [
+    {
+      "site_id": "r3c3",
+      "numerator": 46,
+      "denominator": 47,
+      "pass_fraction": 0.9787234042553191,
+      "interpretation": "DESCRIPTIVE_SAMPLE_COUNTS_NO_NEW_SITE_QA_GATE"
+    },
+    {
+      "site_id": "r4c1",
+      "numerator": 3,
+      "denominator": 3,
+      "pass_fraction": 1.0,
+      "interpretation": "DESCRIPTIVE_SAMPLE_COUNTS_NO_NEW_SITE_QA_GATE"
+    }
+  ],
+  "qa_benchmark_passed": true,
+  "pending_items": 0,
+  "unsure_items": 0,
+  "evidence_scope": "EXISTING_GEOMETRY_AND_NATIVE_AHN_DSM_DTM_ONLY",
+  "engineering_raster_yield": "UNMET_UNCHANGED",
+  "global_spatial_completeness": "NOT_ESTABLISHED",
+  "endpoint_release": false,
+  "limitations": [
+    "H has 1 sampled case and L has 2; threshold passage is not precise population-level accuracy estimation.",
+    "50-case pilot QA is not validation of all 25 sites, absolute height accuracy or global completeness.",
+    "Initial PASS reasons left blank by reviewers remain blank; no explanations were invented."
+  ],
+  "source_summary_sha256": "7028a58ed26389083984e60ddddf380bb0e435c7194a5fb58c16bc47b79ff9e4",
+  "record_scope": "Summary counts only; individual judgments, reviewer identities, scores and adjudication records are not included."
+}

@@ -1,0 +1,171 @@
+{
+  "role": "Direct subset of the unchanged Table 2 numerical registry; not new observations",
+  "source_registry": "table2_numeric_registry.json",
+  "source_registry_sha256": "a43a880f0508a481c3af9ff70dd954be08b7ecbd37fbd374916e0cd81f7f70ab",
+  "observed_conditions": [
+    {
+      "id": "U-C01",
+      "label": "Technical raster yield",
+      "population": "r3c3: all strict geometry matches",
+      "stage": "PRE_TEMPORAL",
+      "unit": "record",
+      "numerator": 434,
+      "denominator": 2980,
+      "count": null,
+      "fraction": 0.14563758389261744,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "U4-r3c3#raster_yield_upper_bound"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.raster_yield_min",
+      "threshold": 0.8,
+      "evaluation_basis": "UPPER_BOUND_PROVES_UNMET"
+    },
+    {
+      "id": "U-C02",
+      "label": "Technical raster yield",
+      "population": "r4c1: all strict geometry matches",
+      "stage": "PRE_TEMPORAL",
+      "unit": "record",
+      "numerator": 29,
+      "denominator": 43,
+      "count": null,
+      "fraction": 0.6744186046511628,
+      "condition_state": "UNMET",
+      "evidence_locators": [
+        "U4-r4c1#raster_yield_upper_bound"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.raster_yield_min",
+      "threshold": 0.8,
+      "evaluation_basis": "UPPER_BOUND_PROVES_UNMET"
+    },
+    {
+      "id": "U-C03",
+      "label": "Conditional plausibility",
+      "population": "r3c3: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": 414,
+      "denominator": 417,
+      "count": null,
+      "fraction": 0.9928057553956835,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U4-r3c3#conditional_plausible_fraction"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.plausible_fraction_min",
+      "threshold": 0.8,
+      "evaluation_basis": "CONDITIONAL_OBSERVATION"
+    },
+    {
+      "id": "U-C04",
+      "label": "Conditional plausibility",
+      "population": "r4c1: screened numerical stock",
+      "stage": "SCREENED_NUMERICAL_STOCK",
+      "unit": "record",
+      "numerator": 28,
+      "denominator": 28,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U4-r4c1#conditional_plausible_fraction"
+      ],
+      "rule_locator": "U1#engineering_benchmarks.plausible_fraction_min",
+      "threshold": 0.8,
+      "evaluation_basis": "CONDITIONAL_OBSERVATION"
+    },
+    {
+      "id": "U-C05",
+      "label": "Human QA",
+      "population": "Pooled fixed 50-case QA sample",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 49,
+      "denominator": 50,
+      "count": null,
+      "fraction": 0.98,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#pass_numerator,pass_denominator"
+      ],
+      "rule_locator": "U1#qa.overall_pass_min",
+      "threshold": 0.9,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C06",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum H",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 1,
+      "denominator": 1,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[H]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C07",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum L",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 2,
+      "denominator": 2,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[L]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C08",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum D",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 14,
+      "denominator": 15,
+      "count": null,
+      "fraction": 0.9333333333333333,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[D]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    },
+    {
+      "id": "U-C09",
+      "label": "Human QA",
+      "population": "Fixed QA sample: stratum N",
+      "stage": "FINAL_ADJUDICATED_SAMPLE",
+      "unit": "record",
+      "numerator": 32,
+      "denominator": 32,
+      "count": null,
+      "fraction": 1.0,
+      "condition_state": "SATISFIED",
+      "evidence_locators": [
+        "U5#strata[N]"
+      ],
+      "rule_locator": "U1#qa.stratum_pass_min",
+      "threshold": 0.8,
+      "evaluation_basis": "SAMPLE_OBSERVATION"
+    }
+  ],
+  "endpoint_binding_complete": false,
+  "readiness_score": null
+}
